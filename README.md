@@ -78,7 +78,7 @@ curl -X DELETE http://localhost:5000/api/productos/1
 ### Anexos de Locust
 <img width="1845" height="806" alt="image" src="https://github.com/user-attachments/assets/34f0cd3b-2034-4e26-91a5-d5d532cb5434" />
 
-
+```bash
 1. Arquitectura del Sistema
 1.1 Arquitectura General
 El sistema implementa una arquitectura de 3 capas siguiendo principios de diseño SOLID y separación de responsabilidades:
@@ -255,3 +255,5 @@ Deploy automático solo desde main
 
 2.4 Ambientes
 AmbienteBranchDatabaseURLDesarrollodevelopSQLite (local)localhost:5000StagingstagingPostgreSQLstaging.api.comProducciónmainPostgreSQLapi.inventario.com
+
+```
